@@ -15,7 +15,7 @@ import java.util.Scanner;
  * Valida las credenciales mediante la clase Authentication
  * y redirige al menú correspondiente según el rol.
  * @author Lucia Vega
- * @version 1.0
+ * @version 1.1
  */
 
 public class Login {
@@ -46,13 +46,13 @@ public class Login {
             // Solicita la contraseña
             System.out.print("Ingrese su contraseña: ");
             String pass = sc.nextLine();
+            System.out.println(" ");
 
             // Llama al metodo authenticate para validar usuario y contraseña
             User authenticateUser = autho.authenticate(userName, pass);
 
             if (authenticateUser == null) {
                 // Si las credenciales son incorrectas
-                System.out.println(" ");
                 System.out.println("Usuario o contraseña incorrectos");
                 System.out.println(" ");
                 attempts += 1;  // Incrementa el contador de intentos

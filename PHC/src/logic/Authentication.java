@@ -2,7 +2,7 @@
  * Clase Authentication
  * Descripción: Se encarga de validar las credenciales de los usuarios.
  * @author Lucia Vega
- * @version 1.0
+ * @version 1.1
  */
 
 // Paquete donde se encuentra la clase Authentication

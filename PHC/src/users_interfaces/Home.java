@@ -16,7 +16,7 @@ import users_interfaces.Veterinario.HomeVeterinario;
  * Descripción: Muestra el menú principal correspondiente según el rol del usuario.
  * Dependiendo del rol, redirige al menú específico de cada tipo de usuario.
  * @author Lucia Vega
- * @version 1.0
+ * @version 1.1
  */
 
 public class Home {

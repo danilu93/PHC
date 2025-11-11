@@ -2,7 +2,7 @@
  * Pets Health Control (PHC)
  * Sistema de gestión de expedientes y servicios veterinarios
  * @author Lucia Vega
- * @version 1.0
+ * @version 1.1
  * @since 10/20/2025
  */
 

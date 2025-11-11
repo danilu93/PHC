@@ -13,13 +13,13 @@ import java.util.List;
  * Descripción: Simula una base de datos de usuarios en memoria utilizando una lista.
  * Contiene usuarios predefinidos para pruebas o demostraciones.
  * @author Lucia Vega
- * @version 1.0
+ * @version 1.1
  */
 
 public class User_DB {
 
     // Lista privada que almacena los usuarios
-    private final List<User> userList = new ArrayList<>();
+    private static final List<User> userList = new ArrayList<>();
 
     /**
      * Constructor de User_DB
@@ -87,5 +87,20 @@ public class User_DB {
 
     public List<User> getUserList() {
         return userList;
+    }
+
+
+    /**
+     * Metodo que retorna al usuario por id de la lista de usuarios almacenados
+     * @return usuario
+     */
+
+    public static User getUserById(String id) {
+        for (User u : userList) {
+            if (u.getId().equals(id)) {
+                return u;
+            }
+        }
+        return null;
     }
 }

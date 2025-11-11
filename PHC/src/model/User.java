@@ -5,7 +5,7 @@ package model;
  * Clase User
  * Descripción: Datos personales y credenciales de acceso de un usuario.
  * @author Lucia Vega
- * @version 1.0
+ * @version 1.1
  */
 
 public class User {
